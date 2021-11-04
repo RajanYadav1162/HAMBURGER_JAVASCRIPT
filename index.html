@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAVBAR</title>
+    <link rel="stylesheet" href="./css/tailwind.css" />
+  </head>
+  <body>
+    <header class="flex bg-gray-100 p-4 lg:px-10">
+      <a href="#">
+        <img
+          class="w-28"
+          src="./free-logo-amsfcwhijf-i5zabcd7fd-removebg-preview.png"
+          alt=""
+        />
+      </a>
+
+      <nav class="hidden sm:block` sm:flex sm:flex-1 sm:justify-end">
+        <ul class="flex mt-3">
+          <li class=""><a href="#">Home</a></li>
+          <li class="ml-10 lg:ml-20"><a href="#">About</a></li>
+          <li class="mx-10 lg:mx-20"><a href="3">Contact</a></li>
+          <li class=""><a href="#">Blog</a></li>
+        </ul>
+      </nav>
+      <span class="ham ml-auto sm:hidden mt-4">
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </a>
+      </span>
+      <div
+        class="
+          menu
+          w-36
+          h-72
+          bg-gray-200
+          text-center
+          py-4
+          flex
+          justify-center
+          items-center
+          ml-20
+          relative
+          hidden
+          transform
+          transition
+        "
+      >
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="my-10"><a href="#">About</a></li>
+          <li class="my-10"><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <span class="cross absolute text-red-500 bottom-0 left-14 hidden">
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
